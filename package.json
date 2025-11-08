@@ -1,0 +1,25 @@
+{
+  "name": "examen_final",
+  "version": "1.0.0",
+  "description": "Ejercicios de examen final - TypeScript/JavaScript",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "ejercicio1": "npx ts-node --esm ejercicio1.ts",
+    "ejercicio2": "npx ts-node --esm ejercicio2.ts",
+    "start": "npx ts-node --esm ejercicio2.ts",
+    "build": "npx tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["typescript", "javascript", "ejercicios", "examen"],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^24.10.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "axios": "^1.13.2"
+  }
+}
